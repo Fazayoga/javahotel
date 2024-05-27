@@ -1,10 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './About.css';   
+import '../About.css';   
 import { 
     AboutStyle, 
-  } from "./StyledAbout";
-import Hotel from  './img/hotel.jpg'; 
+  } from "../component/StyledAbout";
+import Hotel from  '../img/hotel.jpg'; 
 
 const About = () => {
   const readMore = () => {

@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa'; // Import icons from react-icons
-import Kamar1 from './kamar/kamar1.jpg'; 
-import Kamar2 from './kamar/kamar2.jpg'; 
-import Kamar3 from './kamar/kamar3.jpg'; 
+import Kamar1 from '../kamar/kamar1.jpg'; 
+import Kamar2 from '../kamar/kamar2.jpg'; 
+import Kamar3 from '../kamar/kamar3.jpg'; 
 
 import { 
   AboutBody,
@@ -15,13 +15,13 @@ import {
   Deskripsi,
   ButtonOrange,
   AboutStyleWhite
-} from "./StyledBody";
+} from "../component/StyledBody";
 
 // Array of image URLs
 const images = [
-  './images/gunung.jpg',
-  './images/pantai.jpg',
-  './images/view.jpg'
+  '../images/gunung.jpg',
+  '../images/pantai.jpg',
+  '../images/view.jpg'
 ];
 
 // Interval for changing images (milliseconds)
@@ -111,8 +111,8 @@ const Body = () => {
         <LeftArrow onClick={handleClickLeft}><FaArrowLeft /></LeftArrow>
         <RightArrow onClick={handleClickRight}><FaArrowRight /></RightArrow>
         <BennerText>
-          <h1>Java Resort</h1>
-          <h2>Unlock to enjoy the view of Seaview.</h2>
+          <h1>Java Hotel</h1>
+          <h2>Nikmati sensasi di setiap malam</h2>
         </BennerText>
       </BennerStyle>
       <AboutBody>

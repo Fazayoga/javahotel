@@ -23,12 +23,12 @@ import {
   // Kiri,
   // DeskripsiLengkap,
   AboutDeskripsi
-} from './StyledPremiumRoom';
+} from '../component/StyledPremiumRoom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
 
-import Kamar1 from './kamar/kamar1.jpg'; 
+import Kamar1 from '../kamar/kamar1.jpg'; 
 import RatingStars from './RatingStars';
 
 const PremiumRoom = () => {

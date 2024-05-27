@@ -103,15 +103,17 @@ export const Select = styled.select`
 
 export const Button = styled.button`
     padding: 10px 40px;
-    background-color: white;
-    color: black;
+    background-color: #b86614;
+    color: white;
     border: 1px solid #ccc;
     border-radius: 4px;
     cursor: pointer;
+    width: 290px;
     font-size: 16px;
     &:hover {
-        background-color: black;
-        color: white;
+        background-color: white;
+        color: #b86614;
+        border: 1px solid #b86614;
     }
 `;
 

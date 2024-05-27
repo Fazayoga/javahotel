@@ -4,15 +4,15 @@ import {
   AboutHome,
   AboutDiv,
   AboutImg
-} from './StyledRoom';
+} from '../component/StyledRoom';
 import { Link } from 'react-router-dom';
-import Kamar1 from './kamar/kamar1.jpg'; 
-import Kamar2 from './kamar/kamar2.jpg'; 
-import Kamar3 from './kamar/kamar3.jpg'; 
-import Kamar4 from './kamar/kamar4.jpg'; 
-import Kamar5 from './kamar/kamar5.jpg'; 
-import Kamar6 from './kamar/kamar6.jpg'; 
-import './Room.css';
+import Kamar1 from '../kamar/kamar1.jpg'; 
+import Kamar2 from '../kamar/kamar2.jpg'; 
+import Kamar3 from '../kamar/kamar3.jpg'; 
+import Kamar4 from '../kamar/kamar4.jpg'; 
+import Kamar5 from '../kamar/kamar5.jpg'; 
+import Kamar6 from '../kamar/kamar6.jpg'; 
+import '../Room.css';
 
 const Room = () => {
   return (
@@ -49,7 +49,7 @@ const Room = () => {
                         </span>
                     </span>
                     <button className="more-detail-button">
-                        <b><Link to="/detailroom" style={{ textDecoration: 'none', color: 'black' }}>More Details</Link></b>
+                        <b><Link to="/detail-kamar" style={{ textDecoration: 'none', color: 'black' }}>More Details</Link></b>
                     </button>
                 </div>
                 <div className="box">
